@@ -1,0 +1,3 @@
+max_seq_length: 2048  # Can increase for longer reasoning traces
+lora_rank: 32         # Larger rank = smarter, but slower
+memory_usage: 0.9
