@@ -1,0 +1,4 @@
+reasoning_start: "<start_thought>"  # Acts as <think>
+reasoning_end: "<end_thought>"      # Acts as </think>
+solution_start: "<SOLUTION>"
+solution_end: "</SOLUTION>"
