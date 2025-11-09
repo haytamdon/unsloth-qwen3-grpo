@@ -2,13 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 from utils.utils import load_yaml
-from main import prompt_configs, system_prompt
+from main import system_prompt, reasoning_start, reasoning_end, solution_start, solution_end
 from datasets import Dataset
-
-reasoning_start = prompt_configs["reasoning_start"]
-reasoning_end = prompt_configs["reasoning_end"]
-solution_start = prompt_configs["solution_start"]
-solution_end = prompt_configs["solution_end"]
 
 
 def keep_numbers_only(dataset: Dataset) -> pd.DataFrame:
